@@ -1,0 +1,495 @@
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files (archived) (1)'/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{2aa60b5c-db07-11ea-bc41-9fc9dc43ce41}.TM.blf
+ NTUSER.DAT{2aa60b5c-db07-11ea-bc41-9fc9dc43ce41}.TMContainer000000ms
+ NTUSER.DAT{2aa60b5c-db07-11ea-bc41-9fc9dc43ce41}.TMContainer000000ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Templates@
+ Tracing/
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+'시작 메뉴'@
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ mkdir CLI
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ touch cli.txt
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ cd ~
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ /
+bash: /: Is a directory
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ cd ~
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ cd /
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 /
+$ cd / cm^c
+bash: cd: too many arguments
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 /
+$ cd bin/
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 /bin
+$ cd ~^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 /bin
+$ ^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 /bin
+$ cd~
+bash: cd~: command not found
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 /bin
+$ cd ~
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ mkdir learn_git
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ cd
+cd                cdosys.dll        cdpreference.exe  cdpsvc.dll
+cdd.dll           cdp.dll           cdprt.dll         cdpusersvc.dl
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ cd learn_git/
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git
+$ cd l
+bash: cd: l: No such file or directory
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git
+$ n_git
+bash: n_git: command not found
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git
+$ cd l
+bash: cd: l: No such file or directory
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git
+$ get init
+bash: get: command not found
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git
+$ git init
+Initialized empty Git repository in C:/Users/Lauren Lee/learn_git/.
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ ls
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ ls -a
+./  ../  .git/
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ rm -rf .giy
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ rm -rf. git
+rm: unknown option -- .
+Try 'rm --help' for more information.
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ rm - rf .git
+rm: cannot remove '-': No such file or directory
+rm: cannot remove 'rf': No such file or directory
+rm: cannot remove '.git': Is a directory
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ rm -rf .git
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git
+$ git init
+Initialized empty Git repository in C:/Users/Lauren Lee/learn_git/.
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ rm -rf .git
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git
+$ git init
+Initialized empty Git repository in C:/Users/Lauren Lee/learn_git/.
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ touch first.py
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.py
+
+nothing added to commit but untracked files present (use "git add"
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git add first.py
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git s
+send-email        show              sparse-checkout   stash
+shortlog          show-branch       stage             status
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git s
+send-email        show              sparse-checkout   stash
+shortlog          show-branch       stage             status
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   first.py
+
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git commit
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Lauren Lee@DESKTOP
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ ^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$  git config --global user.email
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$  git config --global user.email
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git config --global user.email
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git config --global user.email "lixue7234@gmail.com
+> git config --global user.email "lixue7234@gmail.com"
+> git config --global user.name "lauren"
+> git config user.name
+>
+>
+>
+>
+.git/     first.py
+>
+> ^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ ^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ ^V^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ ^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ ^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git config --global user.email "you@example.com"
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git config --global user.email "lixue7234@gmail.com"
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ g^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git config --global user.name "lauren lee"
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git config user name
+error: key does not contain a section: user
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git config user.name
+lauren lee
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git config user.email
+lixue7234@gmail.com
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git commit -m '첫  커밋'
+[master (root-commit) 7f3dda4] 첫  커밋
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.py
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git log
+commit 7f3dda479b11fbccbace65fe621eaf7ac989eb6e (HEAD -> master)
+Author: lauren lee <lixue7234@gmail.com>
+Date:   Tue Dec 22 14:14:19 2020 +0900
+
+    첫  커밋
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ ls
+first.py
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ mv first.py first.txt
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git restore first.py
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ ls
+first.py  first.txt
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ rm first.txt
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ touch new.txt
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git add new.txt
+gi
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git commit
+Aborting commit due to empty commit message.
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git commit -m 'new.txt 추가'
+[master 2a2717b] new.txt 추가
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 new.txt
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git log
+commit 2a2717ba7d4dfbd4744227e9bda479f8f2ac5077 (HEAD -> master)
+Author: lauren lee <lixue7234@gmail.com>
+Date:   Tue Dec 22 14:28:00 2020 +0900
+
+    new.txt 추가
+
+commit 7f3dda479b11fbccbace65fe621eaf7ac989eb6e
+Author: lauren lee <lixue7234@gmail.com>
+Date:   Tue Dec 22 14:14:19 2020 +0900
+
+    첫  커밋
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git diff
+diff --git a/new.txt b/new.txt
+index e69de29..95d09f2 100644
+--- a/new.txt
++++ b/new.txt
+@@ -0,0 +1 @@
++hello world
+\ No newline at end of file
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ touch diff.txt
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        diff.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git add new.txt diff.txt
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   diff.txt
+        modified:   new.txt
+
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git commit -m 'diff 추가 & new 수정'
+[master dcee659] diff 추가 & new 수정
+ 2 files changed, 2 insertions(+)
+ create mode 100644 diff.txt
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git add -A^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git add .\
+> ^C
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git add .
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   diff.txt
+
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ git commit -m 'edit new & diff'
+[master a26b64d] edit new & diff
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/learn_git (master)
+$ cd ..
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ mkdir TIL
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ cd TIL
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL
+$ cd ..
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~
+$ cd TIL
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL
+$ git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL
+$ mkdir algorithm
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL
+$ mkdir git
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL
+$ mkdir python
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL
+$ cd git
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL/git
+$ touch basic.md
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL/git
+$ 'Init commit'
+bash: Init commit: command not found
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL/git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL/git
+$ cd TIL
+bash: cd: TIL: No such file or directory
+
+Lauren Lee@DESKTOP-N8VMD58 MINGW64 ~/TIL/git
